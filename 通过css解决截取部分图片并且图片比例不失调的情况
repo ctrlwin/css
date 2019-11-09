@@ -2,16 +2,20 @@
     position: relative;
     width: 230px;
     height: 230px;
+    /*将超出div部分的隐藏*/
     overflow: hidden;
     border-radius: 50%;
 }
 
 .img img {
     position: absolute;
+    /*通过left和top调整图片位置*/
     left: -10px;
     top: -93px;
+    /*图片宽高自适应,图片宽高比例协调的关键*/
     width: auto;
     height: auto;
+    /*调整图片宽高大小*/
     max-width: 200%;
     max-height: 200%;
 }
